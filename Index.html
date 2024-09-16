@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conscientização sobre Abandono de Animais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Conscientização sobre Abandono de Animais</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>O Problema do Abandono de Animais</h2>
+            <p>O abandono de animais é uma questão grave que afeta muitos animais de estimação em todo o mundo. Eles enfrentam desafios imensos, como fome, doenças e agressões, e muitos acabam em abrigos sobrecarregados.</p>
+            <p>É crucial aumentar a conscientização sobre esse problema e promover práticas responsáveis de adoção e cuidados com os animais.</p>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <div class="container">
+            <h2>Galeria</h2>
+            <div class="gallery">
+                <img src="img1.jpg" alt="Imagem de um animal abandonado">
+                <img src="img2.jpg" alt="Imagem de um animal resgatado">
+                <img src="img3.jpg" alt="Imagem de um abrigo para animais">
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="submit_form.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Conscientização sobre Abandono de Animais. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
